@@ -1,0 +1,100 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #055656;
+    color:white;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-sec{
+    height: 100vh;
+    margin-inline: auto;
+
+    min-width: 36rem;
+    max-width: 60rem;
+    
+    gap:8rem;
+
+}
+.heading-primary{
+    text-transform: capitalize;
+    font-size: 3.2rem;
+}
+
+.quote-card{
+    background-color: white;
+    color:#055656;
+    font-size: 1.8rem;
+    padding:3rem;
+    border-radius:2rem;
+    max-width:35rem;
+    opacity:0;
+  
+   
+ 
+}
+.anime{
+    font-weight:700;
+    font-size:2.3rem;
+    text-transform: capitalize;
+}
+
+.character{
+
+font-size: 1.6rem;
+color:#39a5a5;
+
+}
+.quote{
+    margin-top:2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+.btn{
+    text-transform: capitalize;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+    border:none;
+    transition: transform 0.5s;
+
+}
+
+.btn:hover{
+    background-color: #9cd2d2;
+    color:white;
+    transform: scale(1.2);
+}
+
+
+/*******************************************/
+@media (min-width:750px) {
+    .quote-card{
+ 
+        max-width:50rem;
+      
+       
+     
+    }  
+}
+@media (min-width:900px) {
+    .quote-card{
+ 
+        max-width:65rem;
+      
+       
+     
+    }  
+}
